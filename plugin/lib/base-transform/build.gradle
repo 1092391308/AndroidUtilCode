@@ -24,6 +24,6 @@ ext {
     version = Config.modules.plugin_lib_base_transform.version
     website = "https://github.com/Blankj/AndroidUtilCode"
 }
-apply from: "${rootDir.path}/config/publish.gradle"
+//apply from: "${rootDir.path}/config/publish.gradle"
 //./gradlew clean :plugin_lib_base-transform:mavenLocal     // 上传到本地 mavenLocal
 //./gradlew clean :plugin_lib_base-transform:bintrayUpload  // 上传到 gradle 插件库中

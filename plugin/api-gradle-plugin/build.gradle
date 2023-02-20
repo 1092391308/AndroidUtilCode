@@ -37,4 +37,4 @@ ext {
     version = Config.plugins.plugin_api.version
     website = "https://github.com/Blankj/AndroidUtilCode"
 }
-apply from: "${rootDir.path}/config/publish.gradle"
+//apply from: "${rootDir.path}/config/publish.gradle"
