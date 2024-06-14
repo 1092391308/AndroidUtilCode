@@ -43,8 +43,8 @@ class TaskDurationUtils {
                 super.beforeSettings(settings)
             }
 
-            @Override
-            void buildStarted(Gradle gradle) {}
+//            @Override
+//            void buildStarted(Gradle gradle) {}
 
             @Override
             void settingsEvaluated(Settings settings) {}
