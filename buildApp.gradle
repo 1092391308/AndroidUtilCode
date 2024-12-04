@@ -3,12 +3,12 @@ apply plugin: "com.android.application"
 apply {
     from "${rootDir.path}/buildCommon.gradle"
     from "${rootDir.path}/config/flavor.gradle"
-    if (Config.plugins.plugin_api.isApply) {
-        plugin Config.plugins.plugin_api.id
-    }
-    if (Config.plugins.plugin_bus.isApply) {
-        plugin Config.plugins.plugin_bus.id
-    }
+//    if (Config.plugins.plugin_api.isApply) {
+//        plugin Config.plugins.plugin_api.id
+//    }
+//    if (Config.plugins.plugin_bus.isApply) {
+//        plugin Config.plugins.plugin_bus.id
+//    }
 }
 
 configSigning()

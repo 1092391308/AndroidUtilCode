@@ -8,7 +8,6 @@
   "moduleConfig": [
     {"name": "plugin_api_gradle_plugin",  "isApply": true, "useLocal": true, "localPath": "./plugin/api-gradle-plugin"},
     {"name": "plugin_bus_gradle_plugin",  "isApply": true, "useLocal": true, "localPath": "./plugin/bus-gradle-plugin"},
-    {"name": "plugin_lib_base_transform", "isApply": true, "useLocal": true, "localPath": "./plugin/lib/base-transform", "remotePath": "com.blankj:base-transform:1.0"},
     {"name": "plugin_buildSrc_plugin",    "isApply": true, "useLocal": true, "localPath": "./plugin/buildSrc-plugin"},
     {"name": "feature_mock",              "isApply": true, "useLocal": true, "localPath": "./feature/mock"},
     {"name": "feature_launcher_app",      "isApply": true, "useLocal": true, "localPath": "./feature/launcher/app"},
